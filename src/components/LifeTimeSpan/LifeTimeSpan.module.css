@@ -1,0 +1,52 @@
+#RowsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#LifeSpanMainWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 60px;
+  height: 60vh;
+}
+
+#HistoryToShareLabek {
+  width: 90%;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.SingleRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 150px;
+  row-gap: 15px;
+}
+.YearDescription {
+  text-align: center;
+}
+.RoundedButton {
+  width: 39px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  background-color: #4e73aa;
+}
+
+.LineConnector {
+  width: 140px; /* Adjust as needed for the distance between buttons */
+  height: 2px;
+  background-color: navy;
+  margin-top: 49px;
+}

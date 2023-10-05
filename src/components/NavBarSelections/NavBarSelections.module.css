@@ -1,0 +1,24 @@
+#DesktopAnchorsContainer {
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 54%;
+  cursor: pointer;
+}
+
+#DesktopAnchorsContainer > li {
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+#MobileAnchrosContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}

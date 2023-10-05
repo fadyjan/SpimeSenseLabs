@@ -1,0 +1,66 @@
+#MotCategories {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#MoTLogo {
+  position: relative;
+  left: 6%;
+  width: 199px;
+  height: 90px;
+}
+
+#DootedArc {
+  position: relative;
+  left: -189px;
+}
+
+.CategoryCardWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.CategoryNumber{
+    width: 93px;
+height: 86px;
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 33px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.CategoryDesciptionWrapper{
+    width: 417px;
+    height: 127px;
+    border-radius: 74px 74px 74px 74px / 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+#CardCategories{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px ;
+  
+}

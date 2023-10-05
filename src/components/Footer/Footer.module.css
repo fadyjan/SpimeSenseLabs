@@ -1,0 +1,50 @@
+#FooterWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 95%;
+    margin: 0;
+}
+
+#ColumnWrapper{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    height: 222px;
+}
+
+.SingleColumn{
+    width: 15%;
+}
+
+#DoubleColumn{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+#DoubleColumn >img {
+    width: 164px;
+    height: 56px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin : 10px 0px 10px 0px ;
+}
+
+#FooterLowerInfo{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
