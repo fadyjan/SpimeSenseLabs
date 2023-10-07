@@ -52,3 +52,37 @@
   font-weight: 800;
   line-height: normal;
 }
+
+
+@media (max-width:380px) {
+  #ContactUsSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+  }
+
+  .ContactMethodCard {
+    width: 30%;
+    height:128px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .ColumnValue{
+    text-align: center;
+    line-break: anywhere;
+  }
+
+  .IconWrapper{
+    max-height: 50px;
+  }
+  
+  .IconWrapper >svg{
+    font-size: 7vw;
+  }
+}

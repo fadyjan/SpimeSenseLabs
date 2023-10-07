@@ -10,7 +10,7 @@ import OurServices from "../../components/OurServices/OurServices";
 import UseCasses from "../../components/UseCasses/UseCasses";
 import Map from "../../components/Map/Map";
 import SwipperMainSliders from "../../components/SwipperMainSliders/SwipperMainSliders";
-
+import HorizontalTimeline from "../../components/HorizontalTimeline/HorizontalTimeline"
 
 const HomePageLayout = () => {
   return (
@@ -24,7 +24,8 @@ const HomePageLayout = () => {
         <Map></Map>
         <MotCategories></MotCategories>
         <MoTFeatures></MoTFeatures>
-        <LifeTImeSpan></LifeTImeSpan>
+        {/* <LifeTImeSpan></LifeTImeSpan> */}
+        <HorizontalTimeline></HorizontalTimeline>
         <GetInTouch></GetInTouch>
 
        
