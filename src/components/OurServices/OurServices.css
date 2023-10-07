@@ -192,6 +192,25 @@
   }
 }
 
+@media (max-width : 680px) {
+  #OurServicesMainContainer{
+    width: 100%;
+
+  }
+  #OurServicesContainer{
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .card {
+    width: 50%;
+    height: 30%;
+  }
+
+  .card:nth-child(2) {
+    /* Your styles for the middle element go here */
+    width: 50%;
+    height: 30%;  }
+}
 
 @media (max-width : 380px) {
   #OurServicesMainContainer{
