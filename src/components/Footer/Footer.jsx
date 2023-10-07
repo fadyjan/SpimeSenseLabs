@@ -7,52 +7,54 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 const Footer = () => {
   return (
     <div id={module.FooterWrapper}>
-      <div id={module.ColumnWrapper}>
-        <div className={module.SingleColumn}>
-          <label>Our Comunity</label>
-          <ul>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-          </ul>
-        </div>
-        <div className={module.SingleColumn}>
-          <label>Our Comunity</label>
-          <ul>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-          </ul>
-        </div>
+      <div id={module.LogoWithColumnsWrapper}>
+        <div id={module.ColumnWrapper}>
+          <div className={module.SingleColumn}>
+            <label>Our Comunity</label>
+            <ul>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+            </ul>
+          </div>
+          <div className={module.SingleColumn}>
+            <label>Our Comunity</label>
+            <ul>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+            </ul>
+          </div>
 
-        <div className={module.SingleColumn}>
-          <label>Our Comunity</label>
-          <ul>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-          </ul>
-        </div>
-        <div className={module.SingleColumn}>
-          <label>Our Comunity</label>
-          <ul>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-          </ul>
-        </div>
-        <div className={module.SingleColumn}>
-          <label>Our Comunity</label>
-          <ul>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-            <li>ABcd</li>
-          </ul>
+          <div className={module.SingleColumn}>
+            <label>Our Comunity</label>
+            <ul>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+            </ul>
+          </div>
+          <div className={module.SingleColumn}>
+            <label>Our Comunity</label>
+            <ul>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+            </ul>
+          </div>
+          <div className={module.SingleColumn}>
+            <label>Our Comunity</label>
+            <ul>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+              <li>ABcd</li>
+            </ul>
+          </div>
         </div>
         <div id={module.DoubleColumn}>
           <img src={SpimeSenseLogo} alt="" />
